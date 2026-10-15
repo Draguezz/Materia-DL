@@ -57,14 +57,13 @@ Essa equação é idêntica à da regressão linear. A diferença no neurônio �
 
 ## Rede Neural como Aproximadora de Funções Não Lineares
 
-import numpy as np
-import matplotlib.pyplot as plt
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-ô
-, a saída passa por uma função de ativação, que transforma a saída linear em uma não-linear. Assim, a equação completa de um neurônio seria:
+import numpy as np  
 
-ô
-onde 
- representa a função de ativação, como a função sigmoide, tangente hiperbólica, ou ReLU, que adiciona não-linearidade ao modelo, permitindo que a rede neural aprenda relações mais complexas.
+import matplotlib.pyplot as plt 
+
+import tensorflow as tf 
+
+from tensorflow.keras.models import Sequential 
+
+from tensorflow.keras.layers import Dense 
+
