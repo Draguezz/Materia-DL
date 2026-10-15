@@ -54,6 +54,14 @@ onde:
  é o bias, que ajusta a saída do neurônio, assim como o intercepto na regressão linear.
 
 Essa equação é idêntica à da regressão linear. A diferença no neurônio é que, após calcular o valor 
+
+## Rede Neural como Aproximadora de Funções Não Lineares
+
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 ô
 , a saída passa por uma função de ativação, que transforma a saída linear em uma não-linear. Assim, a equação completa de um neurônio seria:
 
